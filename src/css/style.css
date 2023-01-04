@@ -1,0 +1,72 @@
+.container{
+    min-height: 100vh;
+    background-color: var(--neutral-soft-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card{
+    display: flex;
+}
+
+.container .card .image{
+    width: 28.5rem;
+    height: 28rem;
+    background: url(../images/drawers.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.container .card .info{
+    background-color: white;
+    width: 44.5rem;
+    height: 28rem;
+    border-radius: 0rem 1rem 1rem 0;
+    padding: 3.5rem 4rem;
+}
+
+.container .card .info .title{
+    color: var(--neutral-very-dark-color);
+    font-weight: 700;
+}
+
+.container .card .info .description{
+    font-size: 1.3rem;
+    margin-top: 1.3rem;
+    color: var(--neutral-medium-color);
+}
+
+.container .card .info .perfil{
+    display: flex;
+    align-items: center;
+    margin-top: 2.4rem;
+}
+
+.container .card .info .perfil .avatar{
+    border-radius: 50%;
+    width: 4rem;
+}
+
+.container .card .info .perfil .perfil-info{
+    margin-left: 1.5rem;
+}
+
+.container .card .info .perfil .perfil-info .name{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--neutral-very-dark-color);
+}
+
+.container .card .info .perfil .perfil-info .date{
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    color: var(--neutral-medium-color);
+}
+
+.container .card .info .perfil .share-btn{
+    background-color: var(--neutral-soft-color);
+    border-radius: 50%;
+    padding: 0.7rem;
+    margin-left: 16.5rem;
+}
