@@ -41,6 +41,7 @@
     display: flex;
     align-items: center;
     margin-top: 2.4rem;
+    position: relative;
 }
 
 .container .card .info .perfil .avatar{
@@ -69,4 +70,45 @@
     border-radius: 50%;
     padding: 0.7rem;
     margin-left: 16.5rem;
+}
+
+.container .card .info .perfil .share-container{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -11rem;
+    top: -8rem;
+    width: 25rem;
+    height: 5.5rem;
+    border-radius: 1rem;
+    background-color: var(--neutral-very-dark-color);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.144);
+}
+
+.container .card .info .perfil .share-container::after{
+    content: "";
+    top: 5.5rem;
+    left: 11.5rem;
+    position: absolute;
+    border-right: 1rem solid transparent;
+    border-top: 1rem solid var(--neutral-very-dark-color);
+    border-left: 1rem solid transparent;
+    border-bottom: 1rem solid transparent;
+}
+
+.container .card .info .perfil .share-container p{
+    font-size: 1.3rem;
+    letter-spacing: 0.4rem;
+    color: var(--neutral-medium-color);
+}
+
+.container .card .info .perfil .share-container img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1.6rem;
+}
+
+.container .card .info .perfil .share-container .social-icons{
+    display: flex;
 }
