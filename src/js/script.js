@@ -1,6 +1,6 @@
 const shareContainer = document.querySelector('.share-container')
 const shareButton = document.querySelector('.share-btn')
-const darkColor = getComputedStyle(document.documentElement).getPropertyValue('--neutral-very-dark-color')
+const darkColor = getComputedStyle(document.documentElement).getPropertyValue('--neutral-dark-color')
 
 document.querySelector('.share-btn').addEventListener('click', ()=>{
     shareContainer.classList.toggle('hidden')
