@@ -66,14 +66,16 @@
 }
 
 .container .card .info .perfil .share-btn{
+    font-size: 1.5rem;
+    color: var(--neutral-very-dark-color);
     background-color: var(--neutral-soft-color);
     border-radius: 50%;
-    padding: 0.7rem;
+    padding: 0.6rem 0.8rem;
     margin-left: 16.5rem;
 }
 
 .container .card .info .perfil .share-container{
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
@@ -97,18 +99,21 @@
     border-bottom: 1rem solid transparent;
 }
 
+.container .card .info .perfil .hidden{
+    display: none;
+}
+
 .container .card .info .perfil .share-container p{
     font-size: 1.3rem;
     letter-spacing: 0.4rem;
     color: var(--neutral-medium-color);
 }
 
-.container .card .info .perfil .share-container img{
-    width: 2rem;
-    height: 2rem;
-    margin-left: 1.6rem;
-}
-
 .container .card .info .perfil .share-container .social-icons{
     display: flex;
+}
+
+.container .card .info .perfil .share-container .social-icons li a{
+    font-size: 2rem;
+    margin-left: 1.6rem;
 }
