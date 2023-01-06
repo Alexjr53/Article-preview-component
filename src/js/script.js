@@ -12,4 +12,3 @@ document.querySelector('.share-btn').addEventListener('click', ()=>{
         shareButton.style.color = darkColor
     }
 })
-
